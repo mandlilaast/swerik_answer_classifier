@@ -18,3 +18,9 @@ This repository contains a rule-based solution for detecting ministerial answers
 ```bash
 conda env create -f environment.yml
 conda activate swerik-env
+```
+
+### 2. Launch the Jupyter Notebook
+```bash
+jupyter notebook
+```
