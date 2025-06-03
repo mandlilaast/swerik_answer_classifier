@@ -4,17 +4,25 @@ This repository contains a rule-based solution for detecting ministerial answers
 
 ---
 
+## ⚠️ Large data file
+
+The main output CSV file (`identified_answers.csv`) exceeds GitHub’s size limits and is therefore hosted externally:
+
+[Download identified_answers.csv (Google Drive)](https://drive.google.com/file/d/1NUUQoZ4PN9QTEwMB8oEQr6_rfDbu9z5m/view?usp=sharing)
+
+---
+
 ## 📁 Contents
 
 - `swerik_classifier.ipynb`: Main Jupyter notebook for parsing XML data, applying classification heuristics, and plotting results.
-- `answers.csv`: Output file listing utterance IDs identified as ministerial answers.
-- `plot.png`: Graph showing frequency of detected answers per year.
-- `report.pdf`: Final report discussing methods, results, and limitations.
+- `identified_answers.csv`: Output file listing utterance IDs identified as ministerial answers.
+- `answer_counts_per_year.png`: Graph showing frequency of detected answers per year.
 - `Riksdagen_records_task.pdf`: Homework task description as provided by SWERIK.
-- `TaskForJuniorResearchEngineerErikMandel.pdf`: PDF version of the solution report.
+- `TaskForJuniorResearchEngineerErikMandel.pdf`: Final report discussing methods, results, and limitations.
 - `environment.yaml`: Conda environment file with dependencies, including pip-installed `pyriksdagen`.
 
 ---
+
 
 ## 🛠️ Setup Instructions (using Conda)
 
